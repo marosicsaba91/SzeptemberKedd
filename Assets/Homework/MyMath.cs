@@ -1,28 +1,14 @@
-using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 
 class MyMath : MonoBehaviour
 {
-    [SerializeField] float number1, number2;
-    [SerializeField] float min, max;
+	[SerializeField] int number;
+	[SerializeField] int sumOfDigits;
 
-    [SerializeField] float number3;
-    [SerializeField] float ceiled, floored, rounded;
-
-    [SerializeField] int number4;
-    [SerializeField] string sequence;
-
-    void OnValidate()
+	void OnValidate()
     {
-        min = Min(number1, number2);
-        max = Max(number1, number2);
-
-        ceiled = Ceil(number3);
-        floored = Floor(number3);
-        rounded = Round(number3);
-
-        sequence = ToSequence(number4);
-    }
+        sumOfDigits = SumOfDigits(number);
+	}
 
     float Min(float a, float b) 
     {
@@ -90,4 +76,47 @@ class MyMath : MonoBehaviour
 
         return s;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    int SumOfDigits(int number)
+    {
+        int result = 0;
+
+        while (number != 0)
+        {
+            int lastDigit = number % 10;
+            result += lastDigit;
+            number /= 10;
+		}
+
+        return result;
+    }
+
+
+    bool IsPythagorean(int a, int b, int c)
+    {
+        return (a * a) + (b * b) == (c * c);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
