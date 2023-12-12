@@ -3,8 +3,9 @@ using UnityEngine;
 class Follower : MonoBehaviour
 {
     [SerializeField] Transform target;
-    [SerializeField] float speed;
+    [SerializeField] float speed = 10;
     [SerializeField] float maxDistance = 2;
+
 
     void Update()
     {

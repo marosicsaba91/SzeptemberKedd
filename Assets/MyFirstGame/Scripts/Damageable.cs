@@ -45,6 +45,7 @@ public class Damageable : MonoBehaviour
 
     void UpdUIText()
     {
-        uiText.text = "Health: " + currentHealth.ToString();
+        if(uiText != null)
+            uiText.text = "Health: " + currentHealth.ToString();
     }
 }

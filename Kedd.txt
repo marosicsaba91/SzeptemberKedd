@@ -1,0 +1,47 @@
+Kedd
+
+	Vektorok, Mozgás
+
+	GetAxisRaw
+	Vízszintes síkban mozgás
+	Normalizáció
+	Forgás irtányba
+
+	Követő szkript
+	MoveTowards
+	Kutya építés
+	MoveTowards
+	RotateTowards
+	MaxDistance
+	Kamera Követés
+	Kutya ránk néz
+	Lokális és globális terek (Kamera)
+	Két pont között mozgás
+	Forgató szkript
+	Gizmó rajzolás
+	Belső állapot
+	Lineártis interpoláció
+
+UI
+		FindobejctOfType
+		
+	Foyatatás: Coinok, Random
+	Gyorsuló mozgéás, 2D
+	Fizika
+	Sorozatok
+	
+	
+/---------------------
+
+
+
+// -----------------
+K-F
+	Mi a komponens
+	Milyen komponenseket ismerünk
+	Milyen asset típusokat ismerünk
+	Milyen típusokat ismerünk
+	
+//------------------
+
+UI
