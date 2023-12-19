@@ -1,17 +1,14 @@
-using System;
 using UnityEngine;
 
 class RayCaster : MonoBehaviour
 {
     [SerializeField] Transform cursor3D;
+    [SerializeField] ParticleSystem visualEffect;
     [SerializeField] float explosionRange = 10;
     [SerializeField] float explosionMaxForce = 100;
 
     void Update()
     {
-        // Ray ray = new Ray(Vector3.up, Vector3.right);
-        // Ray2D ray2D = new Ray2D(Vector2.up, Vector2.right);
-
         Ray mouseRay = 
             Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -27,6 +24,8 @@ class RayCaster : MonoBehaviour
 
     void Explode(Vector3 position)
     {
+        visualEffect.Play();
+
         Rigidbody[] allRigidBodies = FindObjectsOfType<Rigidbody>();
         foreach (Rigidbody rb in allRigidBodies)
         {

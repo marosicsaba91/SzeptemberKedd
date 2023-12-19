@@ -23,16 +23,33 @@ Kedd
 	Lineártis interpoláció
 
 UI
-		FindobejctOfType
-		
+	FindobejctOfType
 	Foyatatás: Coinok, Random
-	Gyorsuló mozgéás, 2D
+	Prefabok
+
+4 óra van hátra:
+
+	Gyorsuló mozgás, 2D
 	Fizika
+	
+	Raycast
 	Sorozatok
 	
+	Static,
+	Layers
+	Objektum létrehozása/ Törlése
 	
-/---------------------
+// ---------------------
 
+	ParticleSystem
+	Hangok
+	LineRenderer
+
+// -------------------
+	Késletetett
+	Menstés
+	AnimCurve
+	
 
 
 // -----------------
