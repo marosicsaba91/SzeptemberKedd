@@ -1,64 +1,11 @@
-Kedd
+LineRenderer
+Hangok
 
-	Vektorok, Mozgás
+Késletetett
+Mentés
+AnimCurve
+Animáció
 
-	GetAxisRaw
-	Vízszintes síkban mozgás
-	Normalizáció
-	Forgás irtányba
+buildelés
 
-	Követő szkript
-	MoveTowards
-	Kutya építés
-	MoveTowards
-	RotateTowards
-	MaxDistance
-	Kamera Követés
-	Kutya ránk néz
-	Lokális és globális terek (Kamera)
-	Két pont között mozgás
-	Forgató szkript
-	Gizmó rajzolás
-	Belső állapot
-	Lineártis interpoláció
-
-UI
-	FindobejctOfType
-	Foyatatás: Coinok, Random
-	Prefabok
-
-4 óra van hátra:
-
-	Gyorsuló mozgás, 2D
-	Fizika
-	
-	Raycast
-	Sorozatok
-	
-	Static,
-	Layers
-	Objektum létrehozása/ Törlése
-	
-// ---------------------
-
-	ParticleSystem
-	Hangok
-	LineRenderer
-
-// -------------------
-	Késletetett
-	Menstés
-	AnimCurve
-	
-
-
-// -----------------
-K-F
-	Mi a komponens
-	Milyen komponenseket ismerünk
-	Milyen asset típusokat ismerünk
-	Milyen típusokat ismerünk
-	
-//------------------
-
-UI
+ScripableObject

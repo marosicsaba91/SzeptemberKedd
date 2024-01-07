@@ -4,6 +4,7 @@ class RayCaster : MonoBehaviour
 {
     [SerializeField] Transform cursor3D;
     [SerializeField] ParticleSystem visualEffect;
+    [SerializeField] AudioSource soundEffect;
     [SerializeField] float explosionRange = 10;
     [SerializeField] float explosionMaxForce = 100;
 
@@ -25,6 +26,7 @@ class RayCaster : MonoBehaviour
     void Explode(Vector3 position)
     {
         visualEffect.Play();
+        soundEffect.Play();
 
         Rigidbody[] allRigidBodies = FindObjectsOfType<Rigidbody>();
         foreach (Rigidbody rb in allRigidBodies)
